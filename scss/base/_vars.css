@@ -1,0 +1,38 @@
+:root {
+    /* Font Size */
+    --fs-md: 16px;
+
+    /* Width */
+    --image-width: clamp(0.875rem, 0.509rem + 1.38vw, 1.75rem);
+
+    --container-x: clamp(0.25rem, -2.655rem + 10.94vw, 7.188rem);
+    --container-large-x: clamp(0.625rem, -4.609rem + 19.7vw, 13.125rem);
+    --main-font: "DM Sans", sans-serif;
+    --second-font: "Poppins", sans-serif;
+
+    /* Color */
+    --black: #000;
+    --white: #fff;
+    --border-color: #EBEAED;
+    --nav-link-color: #15143966;
+    --heading-color: #1E0E62;
+    --active-btn-color: #25DAC5;
+    --second-btn-color: #482BE7;
+
+    /* Radius */
+    --btn-radius: clamp(2.813rem, 1.373rem + 5.42vw, 6.25rem);
+
+    /* Space */
+    --section-space-y: clamp(2.813rem, -1.116rem + 8.18vw, 6.25rem);
+    --section-space-x: clamp(2rem, -0.357rem + 4.91vw, 4.063rem);
+    --section-space-blocks: clamp(1.375rem, 0.956rem + 1.58vw, 2.375rem);
+    --section-space-card-y: clamp(1.25rem, 0.596rem + 2.46vw, 2.813rem);
+    --section-space-card-x: clamp(1.875rem, 1.09rem + 2.96vw, 3.75rem);
+    --section-space-t-b: clamp(1.875rem, 0.305rem + 5.91vw, 5.625rem);
+    --section-item-gap: clamp(1.25rem, 0.465rem + 2.96vw, 3.125rem);
+    --big-button-space-r-l: clamp(1.375rem, 0.904rem + 1.77vw, 2.5rem);
+    --big-button-space-t-b: clamp(0.625rem, 0.468rem + 0.59vw, 1rem);
+    --button-space-t-b: clamp(0.25rem, 0.145rem + 0.39vw, 0.5rem);
+    --button-space-r-l: clamp(0.75rem, 0.488rem + 0.99vw, 1.375rem);
+    --text-space-y: clamp(0.25rem, 0.145rem + 0.39vw, 0.5rem);
+}

@@ -1,0 +1,22 @@
+.follow-us {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--section-space-blocks);
+
+        h3 {
+            color: var(--heading-color);
+        }
+
+        .copyright-images {
+            display: flex;
+            justify-content: center;
+            gap: var(--section-space-card-x);
+
+            .copyright-image {
+                max-width: clamp(1.5rem, 1.029rem + 1.77vw, 2.625rem);
+            }
+        }
+    }
+}

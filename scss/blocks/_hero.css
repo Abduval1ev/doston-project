@@ -1,0 +1,39 @@
+.hero {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--section-space-y);
+
+        .hero-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--section-space-blocks);
+
+            h1 {
+                color: var(--heading-color);
+            }
+
+            h5 {
+                width: 100%;
+                max-width: 580px;
+                color: var(--nav-link-color);
+                text-align: center;
+            }
+
+
+        }
+
+        .hero-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+
+            .hero-link {
+                color: var(--active-btn-color);
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: var(--main-font);
+
+    .container {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 var(--container-x);
+    }
+
+    .container-large {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 var(--container-large-x);
+    }
+
+    section,
+    footer {
+        padding: var(--section-space-y) 0;
+    }
+
+    .image {
+        max-width: var(--image-width);
+    }
+
+    .active {
+        color: var(--white);
+        padding: var(--button-space-t-b) var(--button-space-r-l);
+        border-radius: var(--btn-radius);
+        background: var(--active-btn-color);
+    }
+
+    .active-big {
+        color: var(--white);
+        padding: var(--big-button-space-t-b) var(--big-button-space-r-l);
+        border-radius: var(--btn-radius);
+        background: var(--active-btn-color);
+    }
+}
+
+/* 
+1 navigation
+2 Hero
+3 Content
+4 Features
+5 Prices
+6 Call to action
+7 Showcase
+8 Testimonials
+9 Team
+10 Team
+11 Contacts 
+12 Footers
+*/

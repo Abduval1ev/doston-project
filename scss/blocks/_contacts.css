@@ -1,0 +1,28 @@
+.contacts {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            margin-bottom: var(--section-space-card-x);
+        }
+
+        h2 {
+            text-align: center;
+            color: var(--heading-color);
+            margin-bottom: var(--section-space-y);
+
+            span {
+                color: var(--second-btn-color);
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: var(--section-space-x);
+        }
+
+    }
+}

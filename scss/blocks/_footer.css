@@ -1,0 +1,24 @@
+.footer {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--button-space-r-l);
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 48px;
+            color: var(--heading-color);
+
+            @media screen and (max-width: 560px) {
+                flex-direction: column;
+            }
+        }
+
+        p {
+            color: var(--nav-link-color);
+        }
+    }
+}

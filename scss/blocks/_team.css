@@ -1,0 +1,54 @@
+.team {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--section-space-x);
+
+        h3 {
+            width: 100%;
+            max-width: 770px;
+            text-align: center;
+            color: var(--heading-color);
+        }
+
+        .team-collegues {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--button-space-r-l);
+
+            @media screen and (max-width: 1024px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            @media screen and (max-width: 990px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media screen and (max-width: 425px) {
+                grid-template-columns: 1fr;
+            }
+
+            .team-collegue-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                img {
+                    margin-bottom: var(--button-space-r-l);
+                }
+
+                p {
+                    color: var(--heading-color);
+                    margin-bottom: var(--text-space-y);
+                }
+
+                span {
+                    color: var(--nav-link-color);
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

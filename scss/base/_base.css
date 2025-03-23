@@ -32,6 +32,10 @@ body {
         max-width: var(--image-width);
     }
 
+    .contacts-image {
+        max-width: var(clamp(4.688rem, 1.759rem + 6.1vw, 7.25rem));
+    }
+
     .active {
         color: var(--white);
         padding: var(--button-space-t-b) var(--button-space-r-l);

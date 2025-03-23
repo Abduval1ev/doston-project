@@ -1,6 +1,13 @@
 :root {
     /* Font Size */
-    --fs-md: 16px;
+    --fs-xxl: 72px;
+    --fs-lg: 58px;
+    --fs-md: 42px;
+    --fs-sm: 32px;
+    --fs-xs: 24px;
+    --fs-xxs: 20px;
+    --fs-xxxs: 16px;
+    --fs-min-xs: 12px;
 
     /* Width */
     --image-width: clamp(0.875rem, 0.509rem + 1.38vw, 1.75rem);

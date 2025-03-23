@@ -1,56 +1,79 @@
-.nav {
-    padding: clamp(0.938rem, 0.414rem + 1.97vw, 2.188rem) 0;
-    border-bottom: 1px solid var(--border-color);
+header {
+    position: relative;
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: var(--nav-link-color);
-
-        h5 {
-            color: var(--heading-color);
-            font-family: var(--second-font);
-        }
-
-        ul {
-            display: flex;
-            justify-content: center;
-            align-items: start;
-            gap: 32px;
-
-            @media screen and (max-width: 1024px) {
-                display: none;
-            }
-
-            li {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-            }
-        }
-
-        .nav-extra {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-
-            a:nth-child(1) {
-                color: var(--nav-link-color);
-            }
-
-            @media screen and (max-width: 1024px) {
-                display: none;
-            }
-        }
-
-        .burger-menu {
-            display: none;
-
-            @media screen and (max-width: 1024px) {
-                display: block;
-            }
-        }
+    .dropdown-container {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 10px 0;
+        min-width: 200px;
+        z-index: 100;
     }
 
+    .dropdown-container.active {
+        display: block;
+        background: #000;
+    }
+
+    .nav {
+        padding: clamp(0.938rem, 0.414rem + 1.97vw, 2.188rem) 0;
+        border-bottom: 1px solid var(--border-color);
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--nav-link-color);
+
+            h5 {
+                color: var(--heading-color);
+                font-family: var(--second-font);
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+
+                @media screen and (max-width: 1024px) {
+                    display: none;
+                }
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+
+            .nav-extra {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                a:nth-child(1) {
+                    color: var(--nav-link-color);
+                }
+
+                @media screen and (max-width: 1024px) {
+                    display: none;
+                }
+            }
+
+            .burger-menu {
+                display: none;
+
+                @media screen and (max-width: 1024px) {
+                    display: block;
+                }
+            }
+        }
+
+    }
 }

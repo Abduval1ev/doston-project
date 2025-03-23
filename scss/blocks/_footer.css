@@ -9,7 +9,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 48px;
+            gap: var(--section-space-card-x);
             color: var(--heading-color);
 
             @media screen and (max-width: 560px) {

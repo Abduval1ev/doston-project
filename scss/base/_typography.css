@@ -151,10 +151,11 @@ h6 {
     }
 
     @media screen and (max-width: 1024px) {
-        font-size: var(--fs-xxxs);
+        font-size: var(--fs-min-xs);
     }
 
-    /* @media screen and (max-width: 1024px) {
+    /* 
+    @media screen and (max-width: 1024px) {
         font-size: var(--fs-min-xs);
     } */
 

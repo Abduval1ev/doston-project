@@ -31,6 +31,13 @@ body {
     .image {
         max-width: var(--image-width);
     }
+    .image-nav {
+        max-width: var(--image-width);
+        height: 100%;
+    }
+    .nav-image {
+        max-width: var(--image-nav);
+    }
 
     .contacts-image {
         max-width: var(clamp(4.688rem, 1.759rem + 6.1vw, 7.25rem));

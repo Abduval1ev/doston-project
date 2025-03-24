@@ -11,10 +11,11 @@
 
     /* Width */
     --image-width: clamp(0.875rem, 0.509rem + 1.38vw, 1.75rem);
+    --image-nav: clamp(15.625rem, -0.089rem + 32.74vw, 29.375rem);
 
     --container-x: clamp(0.25rem, -2.655rem + 10.94vw, 7.188rem);
     --container-large-x: clamp(0.625rem, -4.609rem + 19.7vw, 13.125rem);
-    --main-font: "DM Sans", sans-serif;
+    --main-font: "DM Sans";
     --second-font: "Poppins", sans-serif;
 
     /* Color */
@@ -31,6 +32,7 @@
 
     /* Space */
     --section-space-y: clamp(2.813rem, -1.116rem + 8.18vw, 6.25rem);
+    --nav-space-link: clamp(0.375rem, 0.089rem + 0.6vw, 0.625rem);
     --section-space-x: clamp(2rem, -0.357rem + 4.91vw, 4.063rem);
     --section-space-blocks: clamp(1.375rem, 0.956rem + 1.58vw, 2.375rem);
     --section-space-card-y: clamp(1.25rem, 0.596rem + 2.46vw, 2.813rem);

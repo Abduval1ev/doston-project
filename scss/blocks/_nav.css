@@ -14,13 +14,14 @@ header {
 
     .mobile-menu.mobile-active {
         display: block;
+        padding: clamp(0.938rem, 0.414rem + 1.97vw, 2.188rem) var(--button-space-r-l);
 
         .mobile-nav-close {
             display: flex;
             justify-content: flex-end;
             align-items: center;
 
-            padding: clamp(0.938rem, 0.414rem + 1.97vw, 2.188rem) 0;
+            /* padding: clamp(0.938rem, 0.414rem + 1.97vw, 2.188rem) 0; */
         }
 
         ul {
